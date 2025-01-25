@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería La Delicia - Tradición y Sabor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="brand">
+                <img src="/img/Logo.png" alt="Logo Panadería La Delicia" width="50">
+                <h1>Panadería La Delicia</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/inicio">Inicio</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Tradición y Sabor en Cada Bocado</h2>
+            <p>Más de 30 años creando momentos especiales con nuestros panes y pasteles artesanales</p>
+            <a href="/productos" class="btn">Ver Productos</a>
+        </section>
+
+        <section class="special-offers">
+            <div class="container">
+                <h2 class="section-title">Ofertas Especiales</h2>
+                <div class="offers-grid grid">
+                    <div class="offer-card">
+                        <i class="fas fa-birthday-cake fa-3x"></i>
+                        <h3>Paquete Cumpleaños</h3>
+                        <p>Torta + 24 bocaditos + Decoración</p>
+                        <p class="price">S/. 199.99</p>
+                    </div>
+                    <div class="offer-card">
+                        <i class="fas fa-coffee fa-3x"></i>
+                        <h3>Desayuno Completo</h3>
+                        <p>Café + Sándwich + Postre</p>
+                        <p class="price">S/. 25.99</p>
+                    </div>
+                    <div class="offer-card">
+                        <i class="fas fa-bread-slice fa-3x"></i>
+                        <h3>Pack Familiar</h3>
+                        <p>6 panes + 6 pasteles surtidos</p>
+                        <p class="price">S/. 49.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Nuestros Productos</h2>
+                <div class="products-grid grid">
+                    <div class="product-card">
+                        <img src="/img/panes.jpeg" alt="Pan Artesanal" class="product-image">
+                        <div class="product-info">
+                            <h3>Panes Artesanales</h3>
+                            <p>Elaborados con masa madre y horneados diariamente.</p>
+                            <p class="price">Desde S/. 5.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="/img/tortas.jpeg" alt="Pasteles" class="product-image">
+                        <div class="product-info">
+                            <h3>Pasteles</h3>
+                            <p>Creaciones únicas para cualquier celebración.</p>
+                            <p class="price">Desde S/. 45.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="/img/cafe.jpeg" alt="Café" class="product-image">
+                        <div class="product-info">
+                            <h3>Café Gourmet</h3>
+                            <p>Selección de granos premium tostados a la perfección.</p>
+                            <p class="price">Desde S/. 8.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="features">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegirnos?</h2>
+                <div class="features-grid grid">
+                    <div class="feature-card">
+                        <i class="fas fa-bread-slice feature-icon"></i>
+                        <h3>Productos Frescos</h3>
+                        <p>Horneamos nuestros productos varias veces al día para garantizar la máxima frescura.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-certificate feature-icon"></i>
+                        <h3>Calidad Premium</h3>
+                        <p>Utilizamos los mejores ingredientes y técnicas artesanales tradicionales.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-truck feature-icon"></i>
+                        <h3>Delivery</h3>
+                        <p>Servicio de entrega a domicilio para tu comodidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Calle del Pan 123, 28001 Piura</p>
+                        <p><i class="fas fa-phone"></i> +51 999 888 777</p>
+                        <p><i class="fas fa-clock"></i> Lun-Sáb: 7:00 - 21:00</p>
+                        <p><i class="fas fa-clock"></i> Dom: 8:00 - 14:00</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Panadería La Delicia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head th:replace="~{components/template :: cabecera('Inicio')}">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/css/productos.css">
+</head>
+<body>
+
+<header th:replace="~{components/template :: header}"></header>
+<main class="container my-4">
+
+    <section class="products">
+        <div class="filters">
+            <div class="filter-group">
+                <label for="categoria">Filtrar por categoría:</label>
+                <select id="categoria" onchange="filtrarProductos()">
+                    <option value="todos">Todos los productos</option>
+                    <option value="pan">Panes</option>
+                    <option value="pastel">Pasteles</option>
+                    <option value="bebida">Bebidas</option>
+                </select>
+            </div>
+        </div>
+        <div class="product-list" id="product-list"></div>
+    </section>
+
+    <section class="cart">
+        <h2>Tu Carrito</h2>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span>S/ <span id="cart-total">0.00</span></span>
+        </div>
+        <button class="btn" onclick="Pago()">
+            <i class="fas fa-shopping-cart"></i> Proceder al pago
+        </button>
+    </section>
+</main>
+
+<footer th:replace="~{components/template :: footer}"></footer>    
+<th:block th:replace="~{components/template :: scripts}"></th:block>
+
+<script src="/js/productos.js"></script>
+</body>
+</html>
