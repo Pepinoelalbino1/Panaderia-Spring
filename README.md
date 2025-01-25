@@ -1,1 +1,1 @@
-Nueva Version de lapagina web " panaderia la delicia " Utilizando springboot y thymeleaf 
+Nueva Version de la pagina web " panaderia la delicia " Utilizando springboot y thymeleaf 
